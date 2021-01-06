@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Kino Izlash Sahifasi</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <h1 class="page-name">Kino izlash 2</h1>
+  <div class="container">
+    <div class="box">
+      <form class="js-movie-form" action="https://echo.htmlacademy.ru" method="POST">
+
+        <input class="movie-name-input input-group" aria-label="movie name" name="name" type="text" placeholder="title">
+
+        <input class="movie-year-input input-group" aria-label="movie year" name="year" type="number" placeholder="year">
+
+        <input class="movie-genre-input input-group" aria-label="movie genre" name="genre" type="text" placeholder="genre">
+
+        <input class="movie-rating-input input-group" aria-label="movie rating" name="year" type="number" placeholder="Rating">
+
+        <button class="btn" type="submit">Izlash</button>
+
+      </form>
+      <p>Topilgan kinolar soni: <span class="total"></span></p>
+
+    </div>
+
+    <div class="box-right">
+      <h2 class="result-heading">Results</h2>
+
+      <div class="box-right-content">
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+  <template class="movie-template">
+
+    <div class="movie-card">
+
+      <img class="movie-img" src="https://picsum.photos/250/150" alt="image movie" width="250" height="150">
+      <h3>Name: <span class="movie-name">Titanic</span></h3>
+      <p>Year: <span class="movie-year">1998</span></p>
+      <p>Genre: <span class="movie-genre">fantastic</span></p>
+      <p>Rating: <span class="movie-rating">5</span></p>
+
+    </div>
+
+  </template>
+  <script src="js/movies.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
