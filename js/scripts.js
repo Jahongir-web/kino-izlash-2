@@ -14,7 +14,7 @@ var fragmentName = document.createDocumentFragment();
 var kinolar = movies.map(function (movie){
   return {
     img: movie.ImageURL,
-    title: movie.Title,
+    title: movie.Title.toString(),
     imdbRaiting: movie.imdb_rating,
     year: movie.movie_year,
     imdbId: movie.imdb_id,
