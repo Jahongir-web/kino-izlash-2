@@ -93,6 +93,8 @@ margin-bottom: 20px;
 }
 
 .input-group {
+  display: block;
+  width: 100%;
   padding: 5px 10px;
   border-radius: 5px;
   margin-bottom: 5px;
@@ -122,6 +124,10 @@ margin-bottom: 20px;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+}
+
+.movie-img {
+  border-radius: 15px;
 }
 
 
